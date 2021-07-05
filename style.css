@@ -43,3 +43,9 @@ p {
     width: 100%;
     height: auto;
 }
+
+.b-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
