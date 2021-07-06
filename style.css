@@ -4,6 +4,10 @@ body {
 }
 
 section {
+    margin-bottom: 100px;
+}
+
+.flexible-container {
     display: flex;
     padding: 0 100px;
 }
@@ -12,7 +16,7 @@ h1 {
     font-size: 50px;
 }
 
-h1 .title-color {
+.title-color {
     color: orange;
 }
 
@@ -48,4 +52,39 @@ p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.developer {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exeperience-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dev h1 {
+    font-size: 30px;
+}
+
+#web-developer {
+    border-left: 7px solid black;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-developer {
+    border-left: 7px solid black;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
